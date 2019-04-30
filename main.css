@@ -1,0 +1,96 @@
+*{
+    box-sizing : border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1D1F22;
+}
+
+
+.navbarheader{
+    background-color: #1D1F22;
+}
+
+.activelink{
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #727a88;
+    font-size: 14px;
+    text-transform : uppercase;
+    letter-spacing: 0.2em;
+    padding: 24px 20px;
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    color: #a9aeb7;
+}
+
+.navbar-nav{
+    margin: 0 0 0 440px;
+}
+
+.d1v,
+.d2v,
+.d3v,
+.d4v,
+.d5v,
+.d6v,
+.d7v,
+.d8v,
+.d9v,
+.d10v{
+    width: 683px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #2a2d31;
+}
+
+.d1v img,
+.d2v img,
+.d3v img,
+.d4v img,
+.d5v img,
+.d6v img,
+.d7v img,
+.d8v img,
+.d9v img,
+.d10v img{
+    width: 683px;
+    height: 400px;
+    margin-left:-15px;
+    transition: .6s;
+    -webkit-transition: .4s;
+}
+
+.d1v:hover img,
+.d2v:hover img,
+.d3v:hover img,
+.d4v:hover img,
+.d5v:hover img,
+.d6v:hover img,
+.d7v:hover img,
+.d8v:hover img,
+.d9v:hover img,
+.d10v:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1)
+}
+
+.collapseline{
+    width: 30px;
+    border-bottom: 1px solid white;
+    margin-bottom: 6px;
+    opacity: 0.3;
+    transition: .4s;
+    -webkit-transition: .4s;
+}
+
+.navbar-toggler:hover .collapseline{
+    opacity: 1;
+}
